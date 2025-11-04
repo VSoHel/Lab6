@@ -44,7 +44,7 @@ function renderHeader(parts, onSearch) {
   const left = el('div', { class: 'brand' },
     el('div', { class: 'logo' }, 'SP'),
     el('div', {},
-      el('h1', {}, 'JSONPlaceholder SPA'),
+      el('h1', {}, 'DLV SPA'),
       el('div', { class: 'muted' }, 'users · todos · posts · comments')
     )
   );
